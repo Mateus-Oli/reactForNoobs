@@ -1,0 +1,68 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "16.5.0"
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "process": true
+  },
+  "rules": {
+    "no-console": "off",
+    "no-var": "error",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "camelcase": "off",
+    "block-scoped-var": "error",
+    "complexity": "error",
+    "eqeqeq": "error",
+    "semi": "error",
+    "no-caller": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-bind": "error",
+    "no-multi-spaces": "error",
+    "no-new-wrappers": "error",
+    "no-proto": "error",
+    "no-with": "error",
+    "no-sync": "error",
+    "prefer-const": "error",
+    "prefer-spread": "error",
+    "prefer-rest-params": "error",
+    "prefer-template": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    "comma-spacing": "error",
+    "quote-props": [
+      "error",
+      "consistent-as-needed"
+    ],
+    "react/prop-types": "off"
+  }
+}
